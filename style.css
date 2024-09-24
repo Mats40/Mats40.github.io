@@ -1,0 +1,60 @@
+.minflex{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minflex  > div{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Times New Roman', Times, serif;
+}
+
+ @media screen and  (min-width: 600px)  {
+
+    .minflex{
+        background-color:   rgb(70, 151,    17)
+ }
+   
+
+
+ }
+   
+
+
+ @media screen and  (min-width: 600px)  {
+    .minflex{
+        background-color: aqua;
+    }
+
+
+    @media screen and  (min-width: 800px)  {
+
+        .minflex   >div{
+            background-color:   rgb(70, 151,    17)
+     }
+       
+    
+    
+     }
+
+
+     @media screen and  (min-width: 600px)  {
+
+        .minflex   >div{
+            background-color:  white
+     }
+       
+    
+     
+     }
+
+
+
+
+    
